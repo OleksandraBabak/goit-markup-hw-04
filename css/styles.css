@@ -314,6 +314,14 @@ header {
   letter-spacing: 0.02em;
 }
 
+.sm-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
 .footer .logo {
   margin-bottom: 16px;
   display: inline-block;
