@@ -289,11 +289,21 @@ header {
   text-align: center;
 }
 
-.team-icon {
-  fill: white;
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
-.team-icon-link {
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -301,12 +311,8 @@ header {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-}
-
-.team-list {
-  display: flex;
-  align-items: center;
-  gap: 24px;
+  flex-shrink: 0;
+  fill: #fff;
 }
 
 .section-title {
