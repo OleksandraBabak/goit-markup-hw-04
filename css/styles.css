@@ -173,6 +173,7 @@ header {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: 0 auto;
 }
 
 .hero .page-title {
@@ -293,6 +294,21 @@ header {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+.social-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-title {
