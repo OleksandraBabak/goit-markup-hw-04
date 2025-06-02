@@ -463,7 +463,6 @@ header {
 .footer-icon-items {
   display: flex;
   gap: 16px;
-  padding: 8px;
   align-items: flex-start;
 }
 
